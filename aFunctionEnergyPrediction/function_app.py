@@ -18,14 +18,14 @@ def aFunctionEnergyPrediction(req: func.HttpRequest) -> func.HttpResponse:
     else:
 
         Lagging_Current_Reactive_Power_KvarH = req_body.get('Lagging_Current_Reactive_Power_KvarH')
-        Leading_Current_Reactive_Power_kVarh = req.body.get('Leading_Current_Reactive_Power_kVarh')
-        CO2_tCo2 = req.body.get('CO2_tCo2')
-        logging_Current_Power_Factor = req.body.get('logging_Current_Power_Factor')
-        Leading_Current_Power_Factor = req.body.get('Leading_Current_Power_Factor')
-        NSM = req.body.get('NSM')
-        WeekStatus = req.body.get(WeekStatus)
-        Day_of_week = req.body.get('Day_of_week')
-        Load_Type = req.body.get('Load_Type')        
+        Leading_Current_Reactive_Power_kVarh = req_body.get('Leading_Current_Reactive_Power_kVarh')
+        CO2_tCo2 = req_body.get('CO2_tCo2')
+        logging_Current_Power_Factor = req_body.get('logging_Current_Power_Factor')
+        Leading_Current_Power_Factor = req_body.get('Leading_Current_Power_Factor')
+        NSM = req_body.get('NSM')
+        WeekStatus = req_body.get('WeekStatus')
+        Day_of_week = req_body.get('Day_of_week')
+        Load_Type = req_body.get('Load_Type')        
     
         X_test = [Lagging_Current_Reactive_Power_KvarH, Leading_Current_Reactive_Power_kVarh, CO2_tCo2, logging_Current_Power_Factor, Leading_Current_Power_Factor, NSM, WeekStatus, Day_of_week, Load_Type]
 
