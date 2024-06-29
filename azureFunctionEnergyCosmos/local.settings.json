@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "energypredictioncosmosdb_DOCUMENTDB": "AccountEndpoint=https://energypredictioncosmosdb.documents.azure.com:443/;AccountKey=eemPMEtYK9RB9uebIyln3boMadvcuFdecTLtFTj1VR4NP2Mqv5UE8V9zrofnAH0pNSL1IJ0eKE8FACDbKW7N0w==;"
+  }
+}
